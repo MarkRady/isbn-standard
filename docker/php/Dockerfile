@@ -26,4 +26,7 @@ WORKDIR /var/www
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
-CMD ["php-fpm"]
+COPY ./docker/php/entrypoint.sh /entrypoint.sh
+ENTRYPOINT [ "sh","/entrypoint.sh" ]
+
+#CMD ["php-fpm"]

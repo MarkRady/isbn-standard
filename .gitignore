@@ -1,4 +1,6 @@
 /.idea
+/.vscode
+/code/.fleet
 /.phpunit.cache
 /code/node_modules
 /code/public/build
@@ -15,6 +17,4 @@
 /code/auth.json
 /code/npm-debug.log
 /code/yarn-error.log
-/code/.fleet
-/code/.idea
-/code/.vscode
+
