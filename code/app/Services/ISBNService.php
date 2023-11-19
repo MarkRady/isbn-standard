@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Cache;
 
 class ISBNService
 {
-
-    const TTL = 600;
+    // caching policy 600 seconds = 10mins
+    const TTL = 10*60;
 
     private string $format = 'json';
     private string $baseUrl = "https://openlibrary.org";
@@ -44,8 +44,6 @@ class ISBNService
         }
 
         $data = json_decode($response->getBody(), true);
-
-
 
 
         // Extract book information from response
