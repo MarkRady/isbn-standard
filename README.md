@@ -87,6 +87,3 @@ This requests the book information for the specified ISBN number.
     "message": "Your booking not found"
 }
 ```
-
-
-This format should be suitable for inclusion in a GitHub repository or similar version control system.
