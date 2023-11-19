@@ -47,7 +47,7 @@ Setup and Installation
     ```
 3.  **Build and Run Containers**
     ```bash
-    `docker-compose up --build`
+    docker-compose up --build
     ```
 
 Running the Application
@@ -59,7 +59,7 @@ The application is accessible via `http://localhost:8080` once the containers ar
 
 Use the following `curl` command to test the book query functionality:
 ```bash
-`curl --location 'http://localhost:8080/api/book/9780712676090' \ --header 'Accept: application/json'`
+curl --location 'http://localhost:8080/api/book/9780712676090' \ --header 'Accept: application/json'
 ```
 
 This requests the book information for the specified ISBN number.
