@@ -13,6 +13,6 @@ class InvalidISBNNumber extends Exception
      */
     public function render(Request $request): Response
     {
-        return response(['message' => 'Invalid ISBN number'], 404);
+        return response(['message' => 'Invalid ISBN number'], 400);
     }
 }
