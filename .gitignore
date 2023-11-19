@@ -1,3 +1,4 @@
+/.idea
 /.phpunit.cache
 /code/node_modules
 /code/public/build
